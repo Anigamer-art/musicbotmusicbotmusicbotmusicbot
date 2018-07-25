@@ -236,7 +236,7 @@ function isYoutube(str) {
 }
  client.on('message', message => {
 	 var prefix = "!";
-     if (message.content === prefix +"mhelp") {
+     if (message.content === prefix +"+++++++++++++++++45648") {
     const embed = new Discord.RichEmbed()
      .setColor("RANDOM")
      .addField(`Zyad,aLmutairi commands:
@@ -288,4 +288,35 @@ For additional help,  `)
          message.channel.send({embed:embed});
                         }
                     });
+
+client.on("message", message => {
+	var prefix = "!";
+ if (message.content === "!m-help") {
+  const embed = new Discord.RichEmbed()  
+      .setColor("#000000") 
+      .setDescription(`
+	  
+	         Please Chose: 
+
+!hbot معلومات عن البوت
+!hping - بنق البوت
+
+
+!play - يشغل لك اغنية
+!queue - يعضر لك الفيديوهات في قائمت الانتضار
+!skip - تخطي فيديو
+
+  DJ:
+!resume - تشغيل الاغنية المتوفرة
+!skip - يتخطا الفيدو الشغال
+!pause - توقف ماقت للفيديو
+!skipt يتخطى الاغنية المحددة
+!stop - تخطي كل الفيديوهات
+!vol - [0-200] تغير الصوت
+
+	  `)
+   message.channel.sendEmbed(embed)
+    
+   }
+   }); 
 
