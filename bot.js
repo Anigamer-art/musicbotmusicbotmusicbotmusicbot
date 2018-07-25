@@ -293,5 +293,5 @@ client.on("message", message => {
    }
    }); 
 
-const client1 = "";
+const client1 = "NDcxNjgwNDQ5MTc0MDQ0NzAy.DjoWbA.ZDSSZDypA0XsC47iKq2er9H3ciw";
 client.login(client1)
